@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background: #e63c35;
+    padding: 6px 0px;
+}
+
+#header h1 {
+    float: left;
+    color: #f9f9f9;
+    margin-right: 48px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav a {
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 14px 16px 0px;
+    transition: 0.3s;
+    background-color: #e63c35;
+    margin-top: none;
+    color: #f9f9f9;
+    border: none;
+}
+
+nav a:hover {
+    border-bottom: 3px solid #f9f9f9;
+    background: none;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    align-self: center;
+}
+
+h2 {
+    color: red;
+}
+
+img {
+    float: left;
+}
+
+a {
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 8px 32px;
+    background: blue;
+    color: #f9f9f9;
+    border: 2px solid #271e71;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #f9f9f9;
+    color: blue;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+.content {
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+.toptitle {
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    border-left: 6px solid #e63c35;
+}
+
+.right-box {
+    float: left;
+    width: 288px;
+    margin-left: 18px;
+}
+
+
+.left-box {
+    float: left;
+    width: 288px;
+    margin-left: 18px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    clear: both;
+
+}
+
+
+#main {
+    width: 608px;
+    float: left;
+}
+
+#sidebar{
+    float: left;
+    width: 280px;
+    margin: 0px 12px;
+    background: #fff;
+    padding: 8px;
+}
+
+#sidebar img{
+    margin-bottom: 16px;    
+}
+
+#sidebar h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar p{
+    font-size: 16px;
+}
